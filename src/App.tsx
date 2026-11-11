@@ -495,7 +495,7 @@ export function App() {
                 className="px-6 py-3 rounded-2xl bg-[#2D6A4F] hover:bg-emerald-800 text-white font-bold text-xs sm:text-sm shadow-lg flex items-center gap-2 transition active:scale-95 cursor-pointer"
               >
                 <Download className="w-4 h-4" />
-                <span>Tải Ảnh Thiệp Về Máy (Xuất File PNG Nét Cao)</span>
+                <span>Tải Ảnh Thiệp Về Máy</span>
               </button>
               <button
                 onClick={handleShareLink}
