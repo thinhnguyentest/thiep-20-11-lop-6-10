@@ -477,13 +477,14 @@ export function App() {
               />
 
               {/* Chân trang thiệp */}
-              <div className="mt-10 pt-4 border-t border-[#C59B27]/30 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-2">
-                <span>
+              <div className="mt-10 pt-4 border-t border-[#C59B27]/30 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-3">
+                <span className="sm:text-left">
                   ✨ Tác phẩm dự thi Thiết kế Thiệp Điện Tử chào mừng Ngày Nhà Giáo Việt Nam 20/11 — {classInfo.schoolName}
                 </span>
-                <span className="font-bold text-[#6E1414]">
-                  Chi đội Lớp {classInfo.className} • GVCN: {classInfo.homeroomTeacher}
-                </span>
+                <div className="font-bold sm:text-right shrink-0">
+                  <span className="text-[#6E1414] block">Chi đội Lớp {classInfo.className}</span>
+                  <span className="text-[#2D6A4F] block mt-0.5">GVCN: {classInfo.homeroomTeacher}</span>
+                </div>
               </div>
             </div>
 
