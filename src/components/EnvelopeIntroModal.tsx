@@ -79,9 +79,6 @@ export const EnvelopeIntroModal: React.FC<EnvelopeIntroModalProps> = ({
               <p className="font-serif-vn font-bold text-[#6E1414] text-sm sm:text-base mt-0.5">
                 Các Thầy Cô Giáo Trường THCS Dũng Sĩ Điện Ngọc
               </p>
-              <p className="text-xs text-[#2D6A4F] font-bold mt-0.5">
-                & Cô giáo chủ nhiệm {classInfo.homeroomTeacher}
-              </p>
             </div>
           </div>
 
