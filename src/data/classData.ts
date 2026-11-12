@@ -20,15 +20,15 @@ export const DEFAULT_CLASS_INFO: ClassInformation = {
 export const TEACHER_LETTERS: Record<TeacherRecipientKey, TeacherLetterContent> = {
   all: {
     key: 'all',
-    optionLabel: '🏫 Các thầy cô giáo trường THCS Dũng Sĩ Điện Ngọc',
-    salutation: 'Các thầy cô giáo kính yêu của trường THCS Dũng Sĩ Điện Ngọc',
+    optionLabel: '🏫 Quý thầy cô giáo trường THCS Dũng Sĩ Điện Ngọc',
+    salutation: 'Quý thầy cô giáo kính yêu của trường THCS Dũng Sĩ Điện Ngọc',
     paragraphs: [
       'Tháng Chín mùa thu vừa qua, khi tiếng trống khai trường vang lên, 40 học sinh chúng em tạm biệt mái trường Tiểu học để bước lên "Chuyến tàu THCS Dũng Sĩ Điện Ngọc" tại toa tàu mang tên Chi đội 6/10. Ngôi trường mới rộng lớn hơn, môn học nhiều hơn, chiếc khăn quàng đỏ trên vai như nhắc chúng em đã lớn, nhưng trong lòng bạn nào cũng đầy ắp những rụt rè, bỡ ngỡ.',
       'Giữa những ngày đầu tiên lạ lẫm ấy, chính các Thầy Cô của mái trường THCS Dũng Sĩ Điện Ngọc và đặc biệt là Cô giáo chủ nhiệm Nguyễn Minh Quyên với sự dịu dàng, nụ cười ấm áp và giọng giảng bài truyền cảm đã trở thành những Người Lái Tàu tận tụy nhất. Thầy Cô kiên nhẫn chỉ bảo chúng em từ cách ghi bài, nề nếp học tập, cho đến việc biết đoàn kết, yêu thương nhau dưới mái nhà chung 6/10.',
       'Mỗi nét phấn trắng Thầy Cô viết lên bảng xanh đã mở ra cho 40 học trò nhỏ cả một chân trời tri thức kỳ diệu. Những điểm 10 đầu tiên, những lời khen ngợi động viên của Thầy Cô chính là nguồn động lực to lớn giúp chuyến tàu 6/10 tự tin tiến về phía trước.',
     ],
     quote:
-      '“Nhân ngày 20/11, tập thể lớp 6/10 kính chúc Quý Thầy Cô trường THCS Dũng Sĩ Điện Ngọc cùng Cô Nguyễn Minh Quyên luôn dồi dào sức khỏe, hạnh phúc và mãi là ngọn hải đăng soi sáng cho chúng em!”',
+      '“Nhân ngày 20/11, tập thể lớp 6/10 kính chúc Quý Thầy Cô trường THCS Dũng Sĩ Điện Ngọc luôn dồi dào sức khỏe, hạnh phúc và mãi là ngọn hải đăng soi sáng cho chúng em!”',
   },
   gvcn: {
     key: 'gvcn',
@@ -45,7 +45,7 @@ export const TEACHER_LETTERS: Record<TeacherRecipientKey, TeacherLetterContent> 
   toan: {
     key: 'toan',
     optionLabel: '📐 Thầy/Cô Giáo Bộ Môn Toán',
-    salutation: 'Các thầy cô giáo kính yêu của trường THCS Dũng Sĩ Điện Ngọc (Bộ môn Toán)',
+    salutation: 'Quý thầy cô giáo kính yêu của trường THCS Dũng Sĩ Điện Ngọc (Bộ môn Toán)',
     paragraphs: [
       'Bước vào lớp 6 tại trường THCS Dũng Sĩ Điện Ngọc, những bài toán Tập hợp, Số nguyên và Hình học trực quan từng khiến 40 học sinh lớp 6/10 chúng em lo lắng và bối rối.',
       'Thế nhưng, nhờ phương pháp giảng dạy dễ hiểu, tận tình và sự kiên nhẫn của Thầy/Cô trên bục giảng, những con số khô khan đã trở thành niềm say mê khám phá mỗi ngày của cả lớp.',
@@ -57,7 +57,7 @@ export const TEACHER_LETTERS: Record<TeacherRecipientKey, TeacherLetterContent> 
   van: {
     key: 'van',
     optionLabel: '📖 Thầy/Cô Giáo Bộ Môn Ngữ Văn',
-    salutation: 'Các thầy cô giáo kính yêu của trường THCS Dũng Sĩ Điện Ngọc (Bộ môn Ngữ Văn)',
+    salutation: 'Quý thầy cô giáo kính yêu của trường THCS Dũng Sĩ Điện Ngọc (Bộ môn Ngữ Văn)',
     paragraphs: [
       'Những trang văn đầu tiên của chương trình lớp 6 về truyền thuyết dân gian, về tình cảm gia đình và quê hương đất nước đã làm tâm hồn 40 đội viên lớp 6/10 rung động sâu sắc.',
       'Qua giọng đọc truyền cảm và từng lời giảng ấm áp của Thầy/Cô, chúng em học được cách yêu tiếng Việt, biết sống nhân ái, hiếu thảo và biết ơn những người quanh mình.',
@@ -69,7 +69,7 @@ export const TEACHER_LETTERS: Record<TeacherRecipientKey, TeacherLetterContent> 
   anh: {
     key: 'anh',
     optionLabel: '🌍 Thầy/Cô Giáo Bộ Môn Tiếng Anh',
-    salutation: 'Các thầy cô giáo kính yêu của trường THCS Dũng Sĩ Điện Ngọc (Bộ môn Tiếng Anh)',
+    salutation: 'Quý thầy cô giáo kính yêu của trường THCS Dũng Sĩ Điện Ngọc (Bộ môn Tiếng Anh)',
     paragraphs: [
       'Những tiết học Tiếng Anh đầu cấp 2 với nhiều từ vựng và cấu trúc mới từng làm 40 học sinh lớp 6/10 chúng em ngại ngùng khi đứng lên phát biểu.',
       'Nhưng chính sự nhiệt huyết, những hoạt động học tập sôi nổi và nụ cười khích lệ của Thầy/Cô đã giúp cả lớp tự tin giao tiếp và mở cánh cửa bước ra thế giới.',
@@ -81,7 +81,7 @@ export const TEACHER_LETTERS: Record<TeacherRecipientKey, TeacherLetterContent> 
   khtn: {
     key: 'khtn',
     optionLabel: '🔬 Thầy/Cô Giáo Bộ Môn Khoa Học Tự Nhiên',
-    salutation: 'Các thầy cô giáo kính yêu của trường THCS Dũng Sĩ Điện Ngọc (Bộ môn KHTN)',
+    salutation: 'Quý thầy cô giáo kính yêu của trường THCS Dũng Sĩ Điện Ngọc (Bộ môn KHTN)',
     paragraphs: [
       'Môn Khoa học Tự nhiên ở lớp 6 đã mở ra trước mắt 40 học sinh lớp 6/10 biết bao điều kỳ thú về thế giới tự nhiên, về tế bào, chất và những quy luật vật lý quanh ta.',
       'Nhờ những thí nghiệm trực quan sinh động và lời giải thích cặn kẽ của Thầy/Cô, mỗi giờ học đều trở thành một chuyến phiêu lưu khoa học đầy hào hứng.',
@@ -92,7 +92,7 @@ export const TEACHER_LETTERS: Record<TeacherRecipientKey, TeacherLetterContent> 
   sudia: {
     key: 'sudia',
     optionLabel: '🗺️ Thầy/Cô Giáo Lịch Sử & Địa Lý, GDCD, Tin, Nghệ Thuật, GDTC',
-    salutation: 'Các thầy cô giáo kính yêu của trường THCS Dũng Sĩ Điện Ngọc',
+    salutation: 'Quý thầy cô giáo kính yêu của trường THCS Dũng Sĩ Điện Ngọc',
     paragraphs: [
       'Trên chuyến tàu tri thức lớp 6/10, mỗi môn học Lịch sử & Địa lý, Giáo dục công dân, Tin học, Công nghệ, Âm nhạc, Mỹ thuật và Giáo dục thể chất đều mang đến cho 40 đội viên chúng em những hành trang vô cùng quý giá.',
       'Thầy Cô dạy chúng em tự hào về truyền thống hào hùng của mảnh đất Dũng Sĩ Điện Ngọc, biết rèn luyện đạo đức, sức khỏe và thẩm mỹ để phát triển toàn diện.',
@@ -139,7 +139,7 @@ export const INITIAL_STUDENT_WISHES: StudentWishItem[] = [
     groupBadge: 'Tổ 1 • Chăm Ngoan',
     author: 'Đại diện Tổ 1 (10 Đội viên)',
     message:
-      'Chúng em kính chúc Cô chủ nhiệm Nguyễn Minh Quyên luôn mạnh khỏe, tươi trẻ và luôn nở nụ cười rạng rỡ mỗi khi bước vào lớp 6/10 ạ!',
+      'Chúng em kính chúc Quý Thầy Cô luôn mạnh khỏe, tươi trẻ và luôn nở nụ cười rạng rỡ mỗi khi bước vào lớp 6/10 ạ!',
     bgClass: 'bg-[#FFF9EB]',
     borderClass: 'border-amber-300',
     badgeClass: 'text-amber-800 bg-amber-100',
@@ -151,7 +151,7 @@ export const INITIAL_STUDENT_WISHES: StudentWishItem[] = [
     groupBadge: 'Tổ 2 • Sáng Tạo',
     author: 'Đại diện Tổ 2 (10 Đội viên)',
     message:
-      'Cảm ơn các Thầy Cô trường THCS Dũng Sĩ Điện Ngọc đã biến những bài học mới ở lớp 6 thành những giờ học đầy ắp tiếng cười và niềm vui!',
+      'Cảm ơn Quý Thầy Cô trường THCS Dũng Sĩ Điện Ngọc đã biến những bài học mới ở lớp 6 thành những giờ học đầy ắp tiếng cười và niềm vui!',
     bgClass: 'bg-[#F2F9F5]',
     borderClass: 'border-emerald-300',
     badgeClass: 'text-emerald-800 bg-emerald-100',
@@ -163,7 +163,7 @@ export const INITIAL_STUDENT_WISHES: StudentWishItem[] = [
     groupBadge: 'Tổ 3 • Tự Tin',
     author: 'Đại diện Tổ 3 (10 Đội viên)',
     message:
-      'Tháng 11 này 40 thành viên lớp 6/10 xin hứa 100% học bài chăm chỉ, giơ tay phát biểu thật sôi nổi để giành Cờ Đỏ tặng Cô Quyên và các Thầy Cô!',
+      'Tháng 11 này 40 thành viên lớp 6/10 xin hứa 100% học bài chăm chỉ, giơ tay phát biểu thật sôi nổi để giành Cờ Đỏ tặng Quý Thầy Cô!',
     bgClass: 'bg-[#FDF4F4]',
     borderClass: 'border-rose-300',
     badgeClass: 'text-rose-800 bg-rose-100',
@@ -175,7 +175,7 @@ export const INITIAL_STUDENT_WISHES: StudentWishItem[] = [
     groupBadge: 'Tổ 4 • Đoàn Kết',
     author: 'Đại diện Tổ 4 (10 Đội viên)',
     message:
-      'Dù mai này lớn khôn, chúng em sẽ mãi nhớ mùa thu năm lớp 6/10 đầu tiên ấm áp dưới sự chở che của Cô Minh Quyên và Quý Thầy Cô!',
+      'Dù mai này lớn khôn, chúng em sẽ mãi nhớ mùa thu năm lớp 6/10 đầu tiên ấm áp dưới sự chở che của Quý Thầy Cô trường THCS Dũng Sĩ Điện Ngọc!',
     bgClass: 'bg-[#F3F7FA]',
     borderClass: 'border-sky-300',
     badgeClass: 'text-sky-800 bg-sky-100',

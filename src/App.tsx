@@ -462,33 +462,9 @@ export function App() {
                   />
                 </div>
               </div>
-
-              {/* Hành Trình 3 Trạm Dừng Đầu Cấp 2 */}
-              <StationsTimeline
-                classInfo={classInfo}
-                stations={TRAIN_STATIONS}
-              />
-
-              {/* Góc Lưu Bút Thẻ Hành Lý Yêu Thương Của 4 Tổ */}
-              <LuggageWishBoard
-                classInfo={classInfo}
-                wishes={wishes}
-                onAddWish={handleAddWish}
-              />
-
-              {/* Chân trang thiệp */}
-              <div className="mt-10 pt-4 border-t border-[#C59B27]/30 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-3">
-                <span className="sm:text-left">
-                  ✨ Tác phẩm dự thi Thiết kế Thiệp Điện Tử chào mừng Ngày Nhà Giáo Việt Nam 20/11 — {classInfo.schoolName}
-                </span>
-                <div className="font-bold sm:text-right shrink-0">
-                  <span className="text-[#6E1414] block">Chi đội Lớp {classInfo.className}</span>
-                  <span className="text-[#2D6A4F] block mt-0.5">GVCN: {classInfo.homeroomTeacher}</span>
-                </div>
-              </div>
             </div>
 
-            {/* Thanh Nút Xuất Ảnh & Chia Sẻ Dưới Cùng */}
+            {/* Thanh Nút Xuất Ảnh & Chia Sẻ */}
             <div className="flex flex-wrap items-center justify-center gap-4">
               <button
                 onClick={handleDownloadCardPNG}
@@ -504,6 +480,30 @@ export function App() {
                 <Share2 className="w-4 h-4" />
                 <span>Sao Chép Đường Link Thiệp</span>
               </button>
+            </div>
+
+            {/* Hành Trình 3 Trạm Dừng Đầu Cấp 2 */}
+            <StationsTimeline
+              classInfo={classInfo}
+              stations={TRAIN_STATIONS}
+            />
+
+            {/* Góc Lưu Bút Thẻ Hành Lý Yêu Thương Của 4 Tổ */}
+            <LuggageWishBoard
+              classInfo={classInfo}
+              wishes={wishes}
+              onAddWish={handleAddWish}
+            />
+
+            {/* Chân trang thiệp */}
+            <div className="pt-4 border-t border-[#C59B27]/30 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-3">
+              <span className="sm:text-left">
+                ✨ Tác phẩm dự thi Thiết kế Thiệp Điện Tử chào mừng Ngày Nhà Giáo Việt Nam 20/11 — {classInfo.schoolName}
+              </span>
+              <div className="font-bold sm:text-right shrink-0">
+                <span className="text-[#6E1414] block">Chi đội Lớp {classInfo.className}</span>
+                <span className="text-[#2D6A4F] block mt-0.5">GVCN: {classInfo.homeroomTeacher}</span>
+              </div>
             </div>
           </div>
         </section>
