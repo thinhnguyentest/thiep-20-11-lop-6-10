@@ -27,9 +27,8 @@ export const EnvelopeIntroModal: React.FC<EnvelopeIntroModalProps> = ({
 
   return (
     <div
-      className={`fixed inset-0 z-50 flex items-center justify-center p-4 bg-[#140505]/88 backdrop-blur-md transition-all duration-700 ease-out ${
-        isAnimating ? 'opacity-0 scale-105 pointer-events-none' : 'opacity-100 scale-100'
-      }`}
+      className={`fixed inset-0 z-50 flex items-center justify-center p-4 bg-[#140505]/88 backdrop-blur-md transition-all duration-700 ease-out ${isAnimating ? 'opacity-0 scale-105 pointer-events-none' : 'opacity-100 scale-100'
+        }`}
     >
       {/* Background Decorative Glow */}
       <div className="absolute w-[500px] h-[500px] rounded-full bg-gradient-to-tr from-[#9E2A2B]/30 to-[#C59B27]/25 blur-3xl pointer-events-none" />
@@ -37,9 +36,8 @@ export const EnvelopeIntroModal: React.FC<EnvelopeIntroModalProps> = ({
       {/* Main Interactive Envelope Container */}
       <div
         onClick={handleOpenCard}
-        className={`relative w-full max-w-lg cursor-pointer group transition-all duration-500 transform ${
-          isAnimating ? 'scale-110 -translate-y-4' : 'hover:-translate-y-1'
-        }`}
+        className={`relative w-full max-w-lg cursor-pointer group transition-all duration-500 transform ${isAnimating ? 'scale-110 -translate-y-4' : 'hover:-translate-y-1'
+          }`}
       >
         {/* ENVELOPE CARD */}
         <div className="bg-[#FFFDF9] rounded-3xl shadow-[0_25px_60px_-15px_rgba(0,0,0,0.5)] border-2 border-[#C59B27] p-6 sm:p-9 relative overflow-hidden transition-all duration-300 group-hover:border-[#9E2A2B] group-hover:shadow-[0_30px_70px_-12px_rgba(158,42,43,0.35)]">

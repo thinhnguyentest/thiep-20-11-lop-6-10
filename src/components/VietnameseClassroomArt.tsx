@@ -52,6 +52,7 @@ export const VietnameseClassroomArt: React.FC<VietnameseClassroomArtProps> = ({
             <img
               src={classInfo.customPhotoUrl}
               alt={classInfo.photoCaption}
+              crossOrigin="anonymous"
               className="w-full h-full object-cover"
             />
           ) : (
