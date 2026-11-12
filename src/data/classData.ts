@@ -28,7 +28,7 @@ export const TEACHER_LETTERS: Record<TeacherRecipientKey, TeacherLetterContent> 
       'Mỗi nét phấn trắng Thầy Cô viết lên bảng xanh đã mở ra cho 40 học trò nhỏ cả một chân trời tri thức kỳ diệu. Những điểm 10 đầu tiên, những lời khen ngợi động viên của Thầy Cô chính là nguồn động lực to lớn giúp chuyến tàu 6/10 tự tin tiến về phía trước.',
     ],
     quote:
-    '“Nhân ngày 20/11, tập thể lớp 6/10 kính chúc Quý Thầy Cô trường THCS Dũng Sĩ Điện Ngọc luôn dồi dào sức khỏe, hạnh phúc và mãi là ngọn hải đăng soi sáng cho chúng em!”',
+      '“Nhân ngày 20/11, tập thể lớp 6/10 kính chúc Quý Thầy Cô trường THCS Dũng Sĩ Điện Ngọc luôn dồi dào sức khỏe, hạnh phúc và mãi là ngọn hải đăng soi sáng cho chúng em!”',
   },
   gvcn: {
     key: 'gvcn',
@@ -139,7 +139,7 @@ export const INITIAL_STUDENT_WISHES: StudentWishItem[] = [
     groupBadge: 'Tổ 1 • Chăm Ngoan',
     author: 'Đại diện Tổ 1 (10 Đội viên)',
     message:
-    'Chúng em kính chúc Quý Thầy Cô luôn mạnh khỏe, tươi trẻ và luôn nở nụ cười rạng rỡ mỗi khi bước vào lớp 6/10 ạ!',
+      'Chúng em kính chúc Quý Thầy Cô luôn mạnh khỏe, tươi trẻ và luôn nở nụ cười rạng rỡ mỗi khi bước vào lớp 6/10 ạ!',
     bgClass: 'bg-[#FFF9EB]',
     borderClass: 'border-amber-300',
     badgeClass: 'text-amber-800 bg-amber-100',
@@ -151,7 +151,7 @@ export const INITIAL_STUDENT_WISHES: StudentWishItem[] = [
     groupBadge: 'Tổ 2 • Sáng Tạo',
     author: 'Đại diện Tổ 2 (10 Đội viên)',
     message:
-    'Cảm ơn Quý Thầy Cô trường THCS Dũng Sĩ Điện Ngọc đã biến những bài học mới ở lớp 6 thành những giờ học đầy ắp tiếng cười và niềm vui!',
+      'Cảm ơn Quý Thầy Cô trường THCS Dũng Sĩ Điện Ngọc đã biến những bài học mới ở lớp 6 thành những giờ học đầy ắp tiếng cười và niềm vui!',
     bgClass: 'bg-[#F2F9F5]',
     borderClass: 'border-emerald-300',
     badgeClass: 'text-emerald-800 bg-emerald-100',
@@ -163,7 +163,7 @@ export const INITIAL_STUDENT_WISHES: StudentWishItem[] = [
     groupBadge: 'Tổ 3 • Tự Tin',
     author: 'Đại diện Tổ 3 (10 Đội viên)',
     message:
-    'Tháng 11 này 40 thành viên lớp 6/10 xin hứa 100% học bài chăm chỉ, giơ tay phát biểu thật sôi nổi để giành Cờ Đỏ tặng Quý Thầy Cô!',
+      'Tháng 11 này 40 thành viên lớp 6/10 xin hứa 100% học bài chăm chỉ, giơ tay phát biểu thật sôi nổi để giành Cờ Đỏ tặng Quý Thầy Cô!',
     bgClass: 'bg-[#FDF4F4]',
     borderClass: 'border-rose-300',
     badgeClass: 'text-rose-800 bg-rose-100',
@@ -175,7 +175,7 @@ export const INITIAL_STUDENT_WISHES: StudentWishItem[] = [
     groupBadge: 'Tổ 4 • Đoàn Kết',
     author: 'Đại diện Tổ 4 (10 Đội viên)',
     message:
-    'Dù mai này lớn khôn, chúng em sẽ mãi nhớ mùa thu năm lớp 6/10 đầu tiên ấm áp dưới sự chở che của Quý Thầy Cô trường THCS Dũng Sĩ Điện Ngọc!',
+      'Dù mai này lớn khôn, chúng em sẽ mãi nhớ mùa thu năm lớp 6/10 đầu tiên ấm áp dưới sự chở che của Quý Thầy Cô trường THCS Dũng Sĩ Điện Ngọc!',
     bgClass: 'bg-[#F3F7FA]',
     borderClass: 'border-sky-300',
     badgeClass: 'text-sky-800 bg-sky-100',
